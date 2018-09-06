@@ -1,6 +1,6 @@
 # from bs4 import BeautifulSoup
 # import urllib.request
-with open('','r') as f:
+with open('allcity.txt','r') as f:
     r = f.read()
     c = r.split()
     ci = [i.strip('市') for i in c]
