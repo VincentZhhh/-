@@ -1,6 +1,6 @@
 # from bs4 import BeautifulSoup
 # import urllib.request
-with open('城市字典的本地路径','r') as f:
+with open('','r') as f:
     r = f.read()
     c = r.split()
     ci = [i.strip('市') for i in c]
