@@ -1,6 +1,6 @@
 # from bs4 import BeautifulSoup
 # import urllib.request
-with open('C:/Users/zws81/Desktop/天道酬勤/深度学习之神经网络核心原理与算法/project/h1ufgx/test/allcity.txt','r') as f:
+with open('城市字典的本地路径','r') as f:
     r = f.read()
     c = r.split()
     ci = [i.strip('市') for i in c]
